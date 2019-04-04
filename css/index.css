@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+* {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
