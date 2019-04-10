@@ -4,47 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="ifms-cpaq">
-    <meta name="description" content="Página web do Instituto de Autismo e Vida do município de Aquidauana-MS.">
-    <meta name="keywords" content="tea,autismo,criança,afap-tea">
+    <meta name="application-name" content="SEO">
+    <meta name="author" content="br.edu.ifms">
+    <meta name="description" content="Página principal da AFaP-TEA de Aquidauana-MS">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="TEA, Autismo, Criança, AFaP-TEA">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link rel="icon" href="#">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- https://www.w3schools.com/css/css3_flexbox.asp -->
+    <!-- https://pastebin.com/raw/Y11Znz7m -->
 
     <title>AFaP-TEA – Home</title>
 </head>
 
 <body>
     <header>
-        <h3>Diferente é o mundo que queremos!</h3>
+        <h3><q>Diferente é o mundo que queremos!</q></h3>
         <p>Instituto de Autismo e Vida</p>
     </header>
-    <nav>
-        <li><a href="#">Quem somos</a></li>
-        <li><a href="#">TEA</a></li>
-        <li><a href="#">Leis e direitos</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Notícias</a></li>
-        <li><a href="#">Como colaborar</a></li>
-        <li><a href="#">Associar-se</a></li>
-        <li><a href="#">Contato</a></li>
+
+    <nav class="container">
+        <ul class="flex">
+            <li><a href="#">Home</a></li>
+            <!---->
+            <li><a href="./pages/quem-somos.html">Quem somos</a></li>
+            <li><a href="./pages/tea.html">TEA</a></li>
+            <li><a href="./pages/leis-e-direitos.html">Leis e direitos</a></li>
+            <li><a href="./pages/eventos.html">Eventos</a></li>
+            <li><a href="./pages/noticias.html">Notícias</a></li>
+            <li><a href="./pages/como-colaborar.html">Como colaborar</a></li>
+            <li><a href="./pages/associar-se.html">Associar-se</a></li>
+            <li><a href="./pages/contato.html">Contato</a></li>
+        </ul>
     </nav>
 
     <main class="container">
-        <div class="left">
-            <img alt src="./img/crianca3.png" id="crianca">
+        <h1>Home</h1>
+
+        <div class="col-half">
+            <img alt="Criança" src="./img/crianca3.png" id="crianca">
+
+            <p><strong>AFaP-TEA</strong> é uma Associação de Pais e Responsáveis Organizados pelos direitos das pessoas
+                com Transtorno do Espectro Autista, constituído por famílias de pessoas com diagnóstico de autismo, em
+                mídia social eletrônica, com corpo diretor e conselhos, e nos moldes de organização sem fins lucrativos,
+                de interesse civil e coletivo com atuação e pessoas de outras classes de diagnóstico de deficiência ou
+                incapacidades e transtornos. Contamos atualmente com {VALUE} famílias participando das reuniões e ações
+                que envolvem o grupo de pais e pessoas com deficiência.</p>
         </div>
 
-        <div class="right">
-            <h1>Home</h1>
-            <p><strong>AFaP-TEA</strong> é uma Associação de Pais e Responsáveis Organizados pelos direitos das pessoas com Transtorno do Espectro Autista, constituído por famílias de pessoas com diagnóstico de autismo, em mídia social eletrônica, com corpo diretor e conselhos, e nos moldes de organização sem fins lucrativos, de interesse civil e coletivo com atuação e pessoas de outras classes de diagnóstico de deficiência ou incapacidades e transtornos. Contamos atualmente com {VALUE} famílias participando das reuniões e ações que envolvem o grupo de pais e pessoas com deficiência.</p>
-        </div>
     </main>
 
     <footer>
-        <!-- address>R. José Tadao Arima, 222 - Vila Ycaraí, Aquidauana - MS, 79200-000</address -->
+        <address><i class="map-marker-alt"></i>R. Marechal Aquino Brito, 1337</address>
     </footer>
 
     <!-- script language="javascript" src="./js/index.js"></script -->
