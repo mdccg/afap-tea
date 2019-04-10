@@ -9,13 +9,21 @@ header {
 	background-image: url('./../img/crianca.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100% 100%;
-	height: 25em;
+	background-size: 100%;
+	height: 29.5em;
 
 	color: rgb(255, 255, 255);
 	text-align: right;
 	
 	object-fit: cover;
+}
+
+@media only screen and (min-width: 1423px) {
+	header { height: 30em; }
+}
+
+@media only screen and (max-width: 1423px) {
+	header { height: 28.5em; }
 }
 
 h3 { font-size: 1.375em; }
@@ -65,7 +73,7 @@ h1 {
 	/* MUDAR GAMBIARRA DEPOIS */
 }
 
-#crianca {
+.rounded {
 	border-radius: 2.5em;
 }
 
@@ -93,4 +101,31 @@ address {
 	top: 7em;
 
 	font-size: 1.5em;
+}
+
+.afap-tea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+h2 {
+	font-size: 2.15625em;
+	text-transform: uppercase;
+	
+	margin-bottom: 0.5em;
+	color: #7f7fff;
+}
+
+.ul-default {
+	list-style-type: circle;
+}
+
+.jus {
+	text-align: justify;
+}
+
+section, .spacing {
+	margin: 1em;
 }
