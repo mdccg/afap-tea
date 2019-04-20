@@ -63,6 +63,16 @@ section.col-half {
 
 .redondo { border-radius: 24px; }
 
+.reduzido {
+	width: 50%;
+	height: 50%;
+}
+
+.centralizado {
+	display: block;
+	margin: auto;
+}
+
 .ul-default {
 	list-style-type: circle;
 	line-height: 1.5;
@@ -79,7 +89,10 @@ section > label,
 section > p,
 cite { font-size: 24px; }
 
-section > p { text-indent: 64px; }
+section > p {
+	text-indent: 64px;
+	padding: 8px 0 8px 0;
+}
 
 figure > figcaption { font-size: 16px; }
 
@@ -87,6 +100,7 @@ figure > figcaption,
 section > label,
 section > p,
 cite,
+dl,
 .ul-default > li,
 .ul-undotted > li {
 	color: black;
@@ -115,7 +129,6 @@ footer > address {
 .bkgd-ff0 {
 	background-color: #FF0;
 	height: 64px;
-	content: '&#8203;';
 }
 
 h2 {
@@ -128,9 +141,11 @@ h2 {
 
 .clausto { margin: 32px 0 32px 0; }
 
-.justify > p { text-align: justify; }
+.justify { text-align: justify; }
 
 cite {
 	position: relative;
 	left: 1024px;
 }
+
+.a-none { text-decoration: none; }

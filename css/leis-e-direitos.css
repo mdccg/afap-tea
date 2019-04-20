@@ -1,0 +1,11 @@
+dt {
+    padding: 16px 0 0 0;
+    font-size: 32px;
+}
+
+dd {
+    font-size: 24px;
+    padding: 0 0 16px 0;
+    
+    text-align: justify;
+}
