@@ -115,11 +115,10 @@ footer {
 	background-size: 100%;
 }
 
-/* deixar responsivo */
 footer > address {
 	position: relative;
 	text-align: center;
-	top: 256px;
+	top: 84%;
 
 	font-size: 24px;
 	color: black;
