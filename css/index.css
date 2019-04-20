@@ -48,7 +48,7 @@ ul.flex > li > a {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-decoration: none;
-	color: inherit;
+	color: rgb(127, 127, 255);
 }
 
 h1 {
