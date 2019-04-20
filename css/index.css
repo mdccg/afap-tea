@@ -152,13 +152,14 @@ cite {
 
 .form {
   display: flex;
-  width: 620px;
-  background-color: black;
-  color: #CCC;
+  width: 70%;
+  background-color: rgb(3, 200, 45);;
+  color: #FFF;
 }
 
-.form .legend {
-	
+.form > .legend,
+.form > .legend > p {
+	padding: 16px;
 }
 
 .form .section {
