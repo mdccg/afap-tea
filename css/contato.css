@@ -1,0 +1,18 @@
+.form{
+    display: flex;
+    width: 50%;
+    background-color: rgb(150, 150, 150);;
+    color: #FFF;
+}
+
+.div .contato {
+
+
+}
+
+p {
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    margin: auto;
+}
