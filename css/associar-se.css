@@ -1,6 +1,6 @@
 input[type=submit] {
-    background-color: rgb(76, 175, 80);
-    border: none;
+    background-color: rgb(2, 160, 36);
+    border: 1px solid rgb(2, 160, 36);
     float: right;
 
     color: white;
@@ -15,6 +15,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: white;
-    color: rgb(76, 175, 80);
+    background-color: rgb(3, 200, 45);
+    border: 1px solid rgb(2, 160, 36);
+    color: white;
 }

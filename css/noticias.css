@@ -1,0 +1,12 @@
+article {
+    border-left: 8px solid rgb(127, 127, 255);
+    background-color: rgb(203,203,255);
+}
+
+article:hover { background-color: rgb(127, 127, 255); }
+
+h1 { color: rgb(127, 127, 255); }
+
+article > time,
+article > h2,
+article > p { color: rgb(25, 25, 51); }

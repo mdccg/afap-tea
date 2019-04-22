@@ -1,0 +1,32 @@
+article {
+    border-left: 8px solid rgb(154, 209, 146);
+    background-color: rgb(222, 240, 218);
+
+    width: 84%;
+    margin: 32px 0 32px 0;
+    padding: 16px 16px 16px 32px;
+
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+article:hover { background-color: rgb(154, 209, 146); }
+
+article > h2 { font-weight: bold; }
+
+article > h2 > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article > h2 > a:hover { text-decoration: underline; }
+
+article > time,
+article > h2,
+article > p {
+    color: black;
+    opacity: 0.75;
+
+    width: 64%;
+}
+
