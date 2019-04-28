@@ -52,7 +52,11 @@
         <form action="#" method="POST" class="form centralizado redondo">
 
             <section>
-                <img class="img-container centralizado" alt="AFaP-TEA" src="./../img/ygo2.png ">
+                <img style="cursor: pointer"
+                onclick="gira()"
+                class="img-container centralizado ygo"
+                alt="AFaP-TEA"
+                src="./../img/ygo2.png ">
             </section>
 
             <div class="container">
@@ -72,6 +76,27 @@
 
     <div class="bkgd-ff0"></div>
 
+    <script>
+        function gira() {
+            var style = document.createElement('style');
+            style.innerHTML = `
+            body {
+                transform: rotate(1turn);
+                transition-duration: 4s;
+                -webkit-transform: rotate(1turn);
+                -webkit-transition-duration: 4s;
+            }
+            `;
+            document.head.appendChild(style);
+
+            var tag = document.querySelector('.ygo');
+            tag.addEventListener('transitionend', function() {
+                try {
+                    style.parentNode.removeChild(style);
+                } catch(err) {}
+            });
+        }
+    </script>
     <script language="javascript" src="./../js/index.js"></script>
 </body>
 
